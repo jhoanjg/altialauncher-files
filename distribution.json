@@ -117,8 +117,9 @@
                             "type": "Library",
                             "classpath": false,
                             "artifact": {
-                                "size": 0,
-                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+                                "size": 657725,
+                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar",
+                                "MD5": "850be48a3406b9efdf8e64b1c2db97f8"
                             }
                         }
                     ]
