@@ -1186,6 +1186,17 @@
                         "MD5": "1de64f280372ec94e4376976fb579d52",
                         "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/kF7CvxTo/Cobblemon-fabric-1.7.3%2B1.21.1.jar"
                     }
+                },
+                {
+                    "id": "servers.dat",
+                    "name": "Server List",
+                    "type": "File",
+                    "artifact": {
+                        "size": 100,
+                        "MD5": "a3878a78faab4c646892341efda6eaa3",
+                        "path": "servers.dat",
+                        "url": "https://files.altiasoft.com.co/servers.dat"
+                    }
                 }
             ]
         }
