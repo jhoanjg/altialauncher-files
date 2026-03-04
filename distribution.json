@@ -115,7 +115,6 @@
                             "id": "net.fabricmc:intermediary:1.21.1",
                             "name": "Intermediary",
                             "type": "Library",
-                            "classpath": false,
                             "artifact": {
                                 "size": 657725,
                                 "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar",
