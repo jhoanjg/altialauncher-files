@@ -1,0 +1,1123 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "TU_DISCORD_CLIENT_ID",
+        "smallImageText": "AltiaLauncher",
+        "smallImageKey": "seal-circle"
+    },
+    "rss": "https://files.altiasoft.com.co/news.rss",
+    "servers": [
+        {
+            "id": "AltiaServer-1.21.1",
+            "name": "Altia - Servidor Principal",
+            "description": "Servidor principal con mapas y mods personalizados",
+            "icon": "https://files.altiasoft.com.co/icons/server-icon.png",
+            "version": "1.0.0",
+            "address": "103.195.102.89:25398",
+            "minecraftVersion": "1.21.1",
+            "mainServer": true,
+            "autoconnect": true,
+            "javaOptions": {
+                "supported": ">=21.x",
+                "suggestedMajor": 21,
+                "ram": {
+                    "recommended": 4096,
+                    "minimum": 2048
+                }
+            },
+            "discord": {
+                "shortId": "Altia",
+                "largeImageText": "Altia - Servidor Principal",
+                "largeImageKey": "server-main"
+            },
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.18.4",
+                    "name": "Fabric Loader",
+                    "type": "Fabric",
+                    "artifact": {
+                        "size": 1944518,
+                        "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+                        "url": "https://files.altiasoft.com.co/fabric/fabric-loader-0.18.4.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "1.21.1-fabric-0.18.4",
+                            "name": "Fabric Loader Version Manifest",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 2847,
+                                "MD5": "1561b8773b3c061406afec32f7baaa38",
+                                "url": "https://files.altiasoft.com.co/fabric/fabric-loader-0.18.4-1.21.1.json"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "net.fabricmc:fabric-api:0.116.9+1.21.1",
+                    "name": "Fabric API",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 2425600,
+                        "MD5": "b7ce8a460c6c9d4538536730864dd818",
+                        "url": "https://files.altiasoft.com.co/mods/fabric-api-0.116.9+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:buildingwands:2.14",
+                    "name": "Building Wands",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 410135,
+                        "MD5": "e5f056bea4bbfceee9a0e3413253c3bf",
+                        "url": "https://files.altiasoft.com.co/mods/BuildingWands-fabric-MC1.21-2.14.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:camerapture:1.10.12",
+                    "name": "Camerapture",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1978478,
+                        "MD5": "49d849eb4c722d9bf709ab8b09a28634",
+                        "url": "https://files.altiasoft.com.co/mods/Camerapture-1.10.12+mc1.21.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobbledollars:2.0.0-beta5.1",
+                    "name": "Cobble Dollars",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 369528,
+                        "MD5": "1c38ad40c554bd82109d778daa95ecfe",
+                        "url": "https://files.altiasoft.com.co/mods/CobbleDollars-fabric-2.0.0+Beta-5.1+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblefurnies:1.0",
+                    "name": "Cobble Furnies",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 2319618,
+                        "MD5": "a194d0647f3ed6a8deab689f4e933d48",
+                        "url": "https://files.altiasoft.com.co/mods/CobbleFurnies-fabric-1.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobbledlevels:2.0.0",
+                    "name": "Cobbled Levels",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 26960,
+                        "MD5": "85ac266d9632b8e235329ef2e3626f4f",
+                        "url": "https://files.altiasoft.com.co/mods/CobbledLevels-fabric-2.0.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemon-utility-plus:1.7.3",
+                    "name": "Cobblemon Utility+",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 144885,
+                        "MD5": "d9a93c492b7f6cf3a29999e8ea09c907",
+                        "url": "https://files.altiasoft.com.co/mods/Cobblemon-Utility+-fabric-1.7.3-norecipes.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemonmoveinspector:1.3.0",
+                    "name": "Cobblemon Move Inspector",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 27781,
+                        "MD5": "26d986c12332ee177bfa8a88bb751f67",
+                        "url": "https://files.altiasoft.com.co/mods/CobblemonMoveInspector-fabric-1.3.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemonshinydays:1.1.0",
+                    "name": "Cobblemon Shiny Days",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 32566,
+                        "MD5": "50c4e90c4b3fe16fd9b00c4228d92f49",
+                        "url": "https://files.altiasoft.com.co/mods/CobblemonShinyDays-1.1.0-fabric.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemonsizevariation:1.4.0",
+                    "name": "Cobblemon Size Variation",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 97158,
+                        "MD5": "3f5c98d3a10f501cee9fc0f4921fe594",
+                        "url": "https://files.altiasoft.com.co/mods/CobblemonSizeVariationFabric-1.4.0+1.7.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:customnpcs:1.21.1.20251129",
+                    "name": "Custom NPCs",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 13040464,
+                        "MD5": "a25fafef6ef2aff922cde1f71baa98a9",
+                        "url": "https://files.altiasoft.com.co/mods/CustomNPCs-Unofficial-Fabric-1.21.1.20251129.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:forgeconfigapiport:21.1.6",
+                    "name": "Forge Config API Port",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 633065,
+                        "MD5": "eba1a7f9d9976e983a2b9eb5e915e087",
+                        "url": "https://files.altiasoft.com.co/mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:immediatelyfast:1.6.10",
+                    "name": "ImmediatelyFast",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 342770,
+                        "MD5": "15a2eafb373bf55d7db6b45971110825",
+                        "url": "https://files.altiasoft.com.co/mods/ImmediatelyFast-Fabric-1.6.10+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:jade:15.10.5",
+                    "name": "Jade",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 739009,
+                        "MD5": "a9c20c6a83e08abed4aa62dfa5e608ad",
+                        "url": "https://files.altiasoft.com.co/mods/Jade-1.21.1-Fabric-15.10.5.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:jade-addons:6.0.3",
+                    "name": "Jade Addons",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 39917,
+                        "MD5": "8def25c9e2a703ddbe75ec901e7ba35e",
+                        "url": "https://files.altiasoft.com.co/mods/JadeAddons-1.21.1-Fabric-6.0.3.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:simpletms:2.3.3",
+                    "name": "Simple TMs",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 821382,
+                        "MD5": "9a9d474ca102e1d04fa89926fa837896",
+                        "url": "https://files.altiasoft.com.co/mods/SimpleTMs-fabric-2.3.3.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:terrablender:4.1.0.8",
+                    "name": "TerraBlender",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 337989,
+                        "MD5": "cf9f9ea80cd7f8febebbe1752f23b68f",
+                        "url": "https://files.altiasoft.com.co/mods/TerraBlender-fabric-1.21.1-4.1.0.8.jar"
+                    }
+                },
+                {
+                    "id": "io.wispforest:accessories:1.1.0-beta.53+1.21.1",
+                    "name": "Accessories",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1095802,
+                        "MD5": "1f332447eadf66a07b33e641816fcd5e",
+                        "url": "https://files.altiasoft.com.co/mods/accessories-fabric-1.1.0-beta.53+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "dev.architectury:architectury:13.0.8",
+                    "name": "Architectury",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 600915,
+                        "MD5": "702e92d09a4855c6c8aa9e738a48efa4",
+                        "url": "https://files.altiasoft.com.co/mods/architectury-13.0.8-fabric.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:athena:4.0.2",
+                    "name": "Athena",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 82788,
+                        "MD5": "15aefefa313da7447f53b2276e0d0645",
+                        "url": "https://files.altiasoft.com.co/mods/athena-fabric-1.21-4.0.2.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:berrypouch:0.5.4-beta",
+                    "name": "Berry Pouch",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 290288,
+                        "MD5": "70766f18c99220f12cd214aed47a8dcb",
+                        "url": "https://files.altiasoft.com.co/mods/berrypouch-fabric-1.21.1-0.5.4-beta.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:capturexp:1.3.0",
+                    "name": "CaptureXP",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 22848,
+                        "MD5": "e6fc02948bb7b46b6554bc6df987e6f2",
+                        "url": "https://files.altiasoft.com.co/mods/capturexp-fabric-1.7.3-1.3.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:catchrate-display:2.7.8",
+                    "name": "Catch Rate Display",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 175500,
+                        "MD5": "e3df241d4c9c68cc2a478364a86b3bbb",
+                        "url": "https://files.altiasoft.com.co/mods/catchrate-display-fabric-2.7.8.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:chipped:4.0.2",
+                    "name": "Chipped",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 15016830,
+                        "MD5": "c98271e7ba961e78e4a589fc53fa71a2",
+                        "url": "https://files.altiasoft.com.co/mods/chipped-fabric-1.21.1-4.0.2.jar"
+                    }
+                },
+                {
+                    "id": "me.shedaniel:cloth-config:15.0.140",
+                    "name": "Cloth Config",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1157166,
+                        "MD5": "a2c091b027ad6ba8e54b07020fd45884",
+                        "url": "https://files.altiasoft.com.co/mods/cloth-config-15.0.140-fabric.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cnpccobblemonaddon:1.0.0",
+                    "name": "CNPC Cobblemon Addon",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 214982,
+                        "MD5": "fdfc52603dd4a50505bb1ad091a7d765",
+                        "url": "https://files.altiasoft.com.co/mods/cnpccobblemonaddon-fabric-1.0.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobbledgacha:3.0.2",
+                    "name": "Cobbled Gacha",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1146787,
+                        "MD5": "f584039e513f8043d50f67645453734e",
+                        "url": "https://files.altiasoft.com.co/mods/cobbledgacha-fabric-1.21.1-3.0.2.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobbleloots:2.2.2",
+                    "name": "Cobble Loots",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 239143,
+                        "MD5": "aeb03b81322e9d05878e269869c089e4",
+                        "url": "https://files.altiasoft.com.co/mods/cobbleloots-fabric-2.2.2.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblelvlcap:1.2.0",
+                    "name": "Cobble Level Cap",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 39304,
+                        "MD5": "931ecb84b8f90b15b8726d3524263920",
+                        "url": "https://files.altiasoft.com.co/mods/cobblelvlcap-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemon-diamond-dj:1.3.0",
+                    "name": "Cobblemon Diamond DJ",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 34101340,
+                        "MD5": "2562b72a6b62192c885c897c69f3ef8c",
+                        "url": "https://files.altiasoft.com.co/mods/cobblemon-diamond-dj-1.3.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemon-quests:1.2.0",
+                    "name": "Cobblemon Quests",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 61946,
+                        "MD5": "95d0dd45e3484e65c8fad89c2e358409",
+                        "url": "https://files.altiasoft.com.co/mods/cobblemon_quests-[1.21.1]-fabric-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemon-smartphone:1.0.5",
+                    "name": "Cobblemon Smartphone",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 181106,
+                        "MD5": "c6067117fea24c7fdac55283a44a9f7a",
+                        "url": "https://files.altiasoft.com.co/mods/cobblemon_smartphone-fabric-1.0.5.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemonalphas:1.4.1",
+                    "name": "Cobblemon Alphas",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 510732,
+                        "MD5": "070a810976147453fb9eb57d1facd811",
+                        "url": "https://files.altiasoft.com.co/mods/cobblemonalphas-1.4.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemonboss:3.0.0",
+                    "name": "Cobblemon Boss",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 321792,
+                        "MD5": "31440d4c56e536e2c8636ca6cfdcfba7",
+                        "url": "https://files.altiasoft.com.co/mods/cobblemonboss-fabric-3.0.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemonoutbreaks:1.0.0",
+                    "name": "Cobblemon Outbreaks",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 239316,
+                        "MD5": "2a0a25e761b5fbc51f5c00983b44bfbb",
+                        "url": "https://files.altiasoft.com.co/mods/cobblemonoutbreaks-fabric-1.0.0-1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemonraiddens:0.8.1",
+                    "name": "Cobblemon Raid Dens",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 2555152,
+                        "MD5": "e2d9da8ef4683c76061382d548691cc5",
+                        "url": "https://files.altiasoft.com.co/mods/cobblemonraiddens-fabric-0.8.1+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblemore-lib:1.2.8",
+                    "name": "Cobblemore Lib",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 590617,
+                        "MD5": "7b977c1302794223be6df04bd8c55a81",
+                        "url": "https://files.altiasoft.com.co/mods/cobblemore_lib-fabric-1.2.8.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobblenav:2.2.5",
+                    "name": "CobbleNav",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 780131,
+                        "MD5": "f6f1a2fbba01767ec6eb235cc1334650",
+                        "url": "https://files.altiasoft.com.co/mods/cobblenav-fabric-2.2.5.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:cobeffectiveness:0.3",
+                    "name": "Cobblemon Effectiveness",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 94372,
+                        "MD5": "88943accc33d8c7350dc258ef07567e9",
+                        "url": "https://files.altiasoft.com.co/mods/cobeffectiveness-fabric-0.3.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:comforts:9.0.5",
+                    "name": "Comforts",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 914494,
+                        "MD5": "609e01638d5b6f2d864ee299e524395d",
+                        "url": "https://files.altiasoft.com.co/mods/comforts-fabric-9.0.5+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:droploottables:1.7.1",
+                    "name": "Drop Loot Tables",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 322415,
+                        "MD5": "3d90fbca9fcdcb64be6e6c91db6e6b94",
+                        "url": "https://files.altiasoft.com.co/mods/droploottables-fabric-1.7.3-1.7.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:echangepoke:1.0.1",
+                    "name": "Exchange Poke",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 25739,
+                        "MD5": "76e56fa8cf716fe42d8a330d228a2c69",
+                        "url": "https://files.altiasoft.com.co/mods/echangepoke-1.0.1.jar"
+                    }
+                },
+                {
+                    "id": "net.fabricmc:fabric-language-kotlin:1.13.9+kotlin.2.3.10",
+                    "name": "Fabric Language Kotlin",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 7642216,
+                        "MD5": "5a82c29fbbfdd3acbb9da9229ae0e32d",
+                        "url": "https://files.altiasoft.com.co/mods/fabric-language-kotlin-1.13.9+kotlin.2.3.10.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:ferritecore:7.0.3",
+                    "name": "FerriteCore",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 123450,
+                        "MD5": "b8513c8c3eef01ea1117ed8d8cba060d",
+                        "url": "https://files.altiasoft.com.co/mods/ferritecore-7.0.3-fabric.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:fightorflight:0.10.7",
+                    "name": "Fight or Flight",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1415149,
+                        "MD5": "ad33c552b7c642a8c52091c84147b994",
+                        "url": "https://files.altiasoft.com.co/mods/fightorflight-fabric-0.10.7.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:framework:0.13.11",
+                    "name": "Framework",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1647903,
+                        "MD5": "dd84f69d6773a1c48394149039154539",
+                        "url": "https://files.altiasoft.com.co/mods/framework-fabric-1.21.1-0.13.11.jar"
+                    }
+                },
+                {
+                    "id": "dev.ftb:ftb-library:2101.1.30",
+                    "name": "FTB Library",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1406127,
+                        "MD5": "7523f6fa00fb8d211db30a11b9edbfd7",
+                        "url": "https://files.altiasoft.com.co/mods/ftb-library-fabric-2101.1.30.jar"
+                    }
+                },
+                {
+                    "id": "dev.ftb:ftb-quests:2101.1.22",
+                    "name": "FTB Quests",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1450852,
+                        "MD5": "043a0509755e32862a112f5ccb0608ee",
+                        "url": "https://files.altiasoft.com.co/mods/ftb-quests-fabric-2101.1.22.jar"
+                    }
+                },
+                {
+                    "id": "dev.ftb:ftb-teams:2101.1.9",
+                    "name": "FTB Teams",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 287518,
+                        "MD5": "ba6a6acb1e068f5fa535e79971961dda",
+                        "url": "https://files.altiasoft.com.co/mods/ftb-teams-fabric-2101.1.9.jar"
+                    }
+                },
+                {
+                    "id": "software.bernie:geckolib:4.8.3",
+                    "name": "GeckoLib",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 653263,
+                        "MD5": "a25183297019c4cb999faa74fbba649e",
+                        "url": "https://files.altiasoft.com.co/mods/geckolib-fabric-1.21.1-4.8.3.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:immersive-furniture:0.1.3",
+                    "name": "Immersive Furniture",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 904430,
+                        "MD5": "63715f4b1287d38c4906546bb163c43b",
+                        "url": "https://files.altiasoft.com.co/mods/immersive_furniture-fabric-0.1.3+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:iris:1.8.8",
+                    "name": "Iris Shaders",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 2690177,
+                        "MD5": "1179fe09b9ba970e84ed59259adfe65a",
+                        "url": "https://files.altiasoft.com.co/mods/iris-fabric-1.8.8+mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:jademoddedentities:1.3.1",
+                    "name": "Jade Modded Entities",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 117272,
+                        "MD5": "bc6bb5c4556e68c3ba17b1004becec17",
+                        "url": "https://files.altiasoft.com.co/mods/jademoddedentities-fabric-1.21.1-1.3.1.jar"
+                    }
+                },
+                {
+                    "id": "mezz.jei:jei:19.27.0.336",
+                    "name": "JEI",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1561528,
+                        "MD5": "b4988fdc0d53bc418d6285e4b3d4bf16",
+                        "url": "https://files.altiasoft.com.co/mods/jei-1.21.1-fabric-19.27.0.336.jar"
+                    }
+                },
+                {
+                    "id": "info.journeymap:journeymap:6.0.0-beta.55",
+                    "name": "JourneyMap",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 3590355,
+                        "MD5": "3d6497e3031a86e2757fae59349593dc",
+                        "url": "https://files.altiasoft.com.co/mods/journeymap-fabric-1.21.1-6.0.0-beta.55.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:lithium:0.15.2",
+                    "name": "Lithium",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 797184,
+                        "MD5": "901e959a021da886a4f31808364affb2",
+                        "url": "https://files.altiasoft.com.co/mods/lithium-fabric-0.15.2+mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:lootr:1.11.36.116",
+                    "name": "Lootr",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1012972,
+                        "MD5": "6cde3d3ad93370d46cb82823ec24ca82",
+                        "url": "https://files.altiasoft.com.co/mods/lootr-fabric-1.21.1-1.11.36.116.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:lootrmon:0.0.0.1",
+                    "name": "Lootrmon",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 118905,
+                        "MD5": "2911d5c509d702dd7270aecea81d0731",
+                        "url": "https://files.altiasoft.com.co/mods/lootrmon-fabric-1.21.1-0.0.0.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:mega-showdown:1.6.12",
+                    "name": "Mega Showdown",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 16330490,
+                        "MD5": "2ab76063e58f96c88c3d9c2612c50955",
+                        "url": "https://files.altiasoft.com.co/mods/mega_showdown-fabric-1.6.12+1.7.3+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:modernfix:5.25.1",
+                    "name": "ModernFix",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 471258,
+                        "MD5": "17260c894041b7b4a1b1f2fd1a8f1a8b",
+                        "url": "https://files.altiasoft.com.co/mods/modernfix-fabric-5.25.1+mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "io.wispforest:owo-lib:0.12.15.4",
+                    "name": "owolib",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1183559,
+                        "MD5": "3627aee17111e12a8c66928f5d7a3fba",
+                        "url": "https://files.altiasoft.com.co/mods/owo-lib-0.12.15.4+1.21.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:pokebike:1.4hf",
+                    "name": "PokeBike",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 553986,
+                        "MD5": "df5f23f6b5608c3763b2f82705c366bb",
+                        "url": "https://files.altiasoft.com.co/mods/pokebike-fabric-1.4hf.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:pommel-held-items:1.4.2",
+                    "name": "Pommel Held Items",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 50703,
+                        "MD5": "bcf200fc300f9edc7ef7b536fd3d26e9",
+                        "url": "https://files.altiasoft.com.co/mods/pommel-held-items-1.4.2+1.21.x.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:rctapi:0.14.8-beta",
+                    "name": "RCT API",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 229381,
+                        "MD5": "ccb680ea69ae5e167a920a4de47ef22d",
+                        "url": "https://files.altiasoft.com.co/mods/rctapi-fabric-1.21.1-0.14.8-beta.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:rctmod:0.17.6-beta",
+                    "name": "RCT Mod",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 4757980,
+                        "MD5": "989d92d5df33ec5c7bd817fe4772c5d9",
+                        "url": "https://files.altiasoft.com.co/mods/rctmod-fabric-1.21.1-0.17.6-beta.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:refurbished-furniture:1.0.22",
+                    "name": "Refurbished Furniture",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 6965259,
+                        "MD5": "7f54f5c04607b781aa1cb4f61ba38ce3",
+                        "url": "https://files.altiasoft.com.co/mods/refurbished_furniture-fabric-1.21.1-1.0.22.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:releaserewards:3.0.1",
+                    "name": "Release Rewards",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 115427,
+                        "MD5": "71d158a7eba191b7bddbe264f5cc84e0",
+                        "url": "https://files.altiasoft.com.co/mods/releaserewards-fabric-3.0.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:resourcefullib:3.0.12",
+                    "name": "Resourceful Lib",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 485586,
+                        "MD5": "89dac4248b76747800fbc00fa063825e",
+                        "url": "https://files.altiasoft.com.co/mods/resourcefullib-fabric-1.21-3.0.12.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:servercore:1.5.5",
+                    "name": "ServerCore",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 895530,
+                        "MD5": "4a22463d3552ba7cce33701d6af4bf6f",
+                        "url": "https://files.altiasoft.com.co/mods/servercore-fabric-1.5.5+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:sodium:0.6.13",
+                    "name": "Sodium",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1297761,
+                        "MD5": "aa37ba0048a1af6b554b137088cad484",
+                        "url": "https://files.altiasoft.com.co/mods/sodium-fabric-0.6.13+mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:spawnnotification:2.3.0",
+                    "name": "Spawn Notification",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 244216,
+                        "MD5": "01573aa2cfa4be9a99bf55e57584c0c7",
+                        "url": "https://files.altiasoft.com.co/mods/spawnnotification-fabric-1.7.3-2.3.0.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:tbcs:0.13.0-beta",
+                    "name": "TBCS",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 50182,
+                        "MD5": "0f01e3aefe7279ca378b2a95d1ced02b",
+                        "url": "https://files.altiasoft.com.co/mods/tbcs-fabric-1.21.1-0.13.0-beta.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:timcore:1.31.0",
+                    "name": "TimCore",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 297587,
+                        "MD5": "58daa4a59a02d8e94578828744cbbdc7",
+                        "url": "https://files.altiasoft.com.co/mods/timcore-fabric-1.7.3-1.31.0.jar"
+                    }
+                },
+                {
+                    "id": "com.sk89q.worldedit:worldedit:7.3.8",
+                    "name": "WorldEdit",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 6222854,
+                        "MD5": "f5d6f09ca5c4b1958780d01a099b779d",
+                        "url": "https://files.altiasoft.com.co/mods/worldedit-mod-7.3.8.jar"
+                    }
+                },
+                {
+                    "id": "maven.modrinth:ysm:2.6.2",
+                    "name": "Yes Steve Model",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 50349518,
+                        "MD5": "117c1b74692d9254b81d96a9c0b877cf",
+                        "url": "https://files.altiasoft.com.co/mods/ysm-2.6.2-fabric+mc1.21.1-release.jar"
+                    }
+                },
+                {
+                    "id": "com.cobblemon:cobblemon:1.7.3+1.21.1",
+                    "name": "Cobblemon",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 135801550,
+                        "MD5": "1de64f280372ec94e4376976fb579d52",
+                        "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/kF7CvxTo/Cobblemon-fabric-1.7.3%2B1.21.1.jar"
+                    }
+                }
+            ]
+        }
+    ]
+}
